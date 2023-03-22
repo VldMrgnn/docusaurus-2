@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Pagina de ajutor JurnalGold',
-  tagline: '(the content of this page is in Romanian)',
+  title: 'Pagina de ajutor pentru JurnalGold',
+  tagline: 'situl este in constructie',
   url: 'https://quick.jurnalgold.ro',
   baseUrl: '/',
   onBrokenLinks: 'throw',
