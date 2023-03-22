@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Vom trece in revista cateva facilitati din Jurnal Gold
+# In linii mari
 
 Jurnal Gold este un sistem de gestiune a practicii avocatiale.
 
@@ -15,9 +15,10 @@ Utilizatorii pot interactiona cu sistemul prin urmatoarele mijloace:
  Modulele principale:
 
  Jurnal Extended
- Junral Quick
+ Jurnal Quick
 
  Module auxiliare:
+
  Jurnal Mobile, Jurnal Web,  Jurnal Quick Online
 
  Module de integrare diverse (Print Manager, User Config, etc)
