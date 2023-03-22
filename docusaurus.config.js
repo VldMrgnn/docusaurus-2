@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Pagina de ajutor pentru JurnalGold',
-  tagline: 'situl este in constructie',
+  tagline: 'pagina aceasta este in constructie',
   url: 'https://quick.jurnalgold.ro',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,15 +36,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,7 +69,7 @@ const config = {
           },
           {to: '/blog', label: 'Resurse', position: 'left', enabled:false},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/SoftwizCreation/Jurnal-Gold',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,37 +88,32 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Pagina de Web',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Softwiz, contact',
+                href: 'https://www.softwiz.ro/contact/',
+              }
             ],
           },
           {
-            title: 'More',
+            title: 'Altele',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              // {
+              //   label: 'Email:',
+              //   href: 'mailto:support@softwiz.ro',
+              // },{
+              //   label: 'Telefon:',
+              //   href: 'tel:+40722600000',
+              // }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Softiwiz Creation srl`,
       },
       prism: {
         theme: lightCodeTheme,

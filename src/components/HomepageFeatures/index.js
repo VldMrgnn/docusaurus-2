@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Pregatim un demo',
+    Svg: require('@site/static/img/jurnal-gold-logo.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Pregatim infrastructura pentru a un demo suplu si accesibil.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Pregatim un panou de administrare',
+    Svg: require('@site/static/img/softwiz-creation-logo.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+         In curand, acces la resurse personalizate si panoul de administrare.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Avem o echipa de suport',
+    Svg: require('@site/static/img/jurnal-gold-logo.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Puteti cere oricand acces la un demo, o versiune de testare sau o prezentare.
       </>
     ),
   },
