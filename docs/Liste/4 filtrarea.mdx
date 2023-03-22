@@ -1,10 +1,8 @@
 ---
 sidebar_position: 4
 ---
-import { filter1_data } from "../../static/img/filter_1.js";
-const dataUrl = `data:image/png;base64,${filter1_data}`;
-const img = new Image();
-img.src = dataUrl;
+
+import {ImgFilter1} from '../withStaticFiles/index.jsx';
 
 # Filtrarea datelor
 
@@ -13,11 +11,9 @@ Pentru a filtra o coloană se face click pe pictograma în formă de pâlnie din
 <br/>
 <br/>
 
-
-<div>
-  <img src={dataUrl} alt="group1_data" />
+<div style={{ textAlign: 'center', padding: '30px' }}>
+<ImgFilter1 imgMaxWidth={'100%'} />
 </div>
-
 Se bifează valorile dorite și se apasă butonul <strong>OK</strong>.
 Pentru a exclude cateva valori, se poate poate folosi opțiunea
 <strong> Selectează tot</strong> și apoi se debifează valorile de

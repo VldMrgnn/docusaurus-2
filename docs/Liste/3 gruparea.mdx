@@ -2,10 +2,7 @@
 sidebar_position: 3
 ---
 
-import { group1_data } from "../../static/img/group_1.js";
-const dataUrl = `data:image/png;base64,${group1_data}`;
-const img = new Image();
-img.src = dataUrl;
+import {HelpImageGroup1} from '../withStaticFiles/index.jsx';
 
 # Gruparea pe coloană
 
@@ -15,10 +12,8 @@ Pentru a grupa după o coloană, **_se trage capul de coloană_** deasupra tabel
 </em>
 <br/>
 <br/>
-
-
-<div>
-  <img src={dataUrl} alt="group1_data" />
+<div style={{ textAlign: 'center', padding: '30px' }}>
+  <HelpImageGroup1 imgMaxWidth={'100%'} />
 </div>
 
 Acolo unde este posibil, in general la coloanele de tip numeric sau la

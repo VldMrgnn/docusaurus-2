@@ -1,10 +1,7 @@
 ---
 sidebar_position: 2
 ---
-import { columnchooser1_data } from '../../static/img/column_chooser.js';
-const dataUrl = `data:image/png;base64,${columnchooser1_data}`;
-const img = new Image();
-img.src = dataUrl;
+import { ColumnChooserImage } from '../withStaticFiles/index.jsx'
 
  # Selectarea coloanelor vizibile
  
@@ -14,10 +11,9 @@ img.src = dataUrl;
 
  Apoi se poate trage un cap de coloană în sau din panoul de coloande disponibile.
 
- <div>
-    <img src={dataUrl} alt="column_chooser" />
+<div style={{ textAlign: 'center', padding: '30px' }}>
+   <ColumnChooserImage imgMaxWidth={'100%'} />
 </div>
-
 Avem practic un panou unde punem coloanele ca sa le ascundem si de unde le putem scoate din nou daca avem nevoie.
 
 Coloanele rămase vizibile pot fi redimenionate si ordonate.

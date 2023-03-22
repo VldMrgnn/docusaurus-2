@@ -114,6 +114,46 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Softiwiz Creation srl`,
       },
+      plugins: [
+        [
+          '@docusaurus/plugin-content-docs',
+          {
+            id: 'my-docs',
+            path: 'docs',
+            sidebarPath: require.resolve('./sidebars.js'),
+            editUrl: 'https://github.com/<org>/<repo>/edit/main/docs/',
+            routeBasePath: 'docs',
+            showLastUpdateAuthor: true,
+            showLastUpdateTime: true,
+          },
+        ],
+        [
+          '@docusaurus/plugin-content-pages',
+          {
+            path: 'pages',
+          },
+        ],
+        [
+          '@docusaurus/plugin-ideal-image',
+          {
+            sizes: [320, 640, 960, 1200, 1600, 2000],
+            quality: 70,
+            max: 2000,
+            min: 640,
+            steps: 6,
+          },
+        ],
+        [
+          '@docusaurus/plugin-content-docs',
+          {
+            id: 'withStaticFiles',
+            path: 'withStaticFiles',
+            editUrl: 'https://github.com/<org>/<repo>/edit/main/docs/',
+            sidebarPath: require.resolve('./sidebars.js'),
+            withStaticFiles: true, // Enable the withStaticFiles plugin
+          },
+        ],
+      ],
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
