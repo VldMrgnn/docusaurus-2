@@ -8,42 +8,43 @@ sidebar_position: 6
 
 ![Donut-overview ](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2039.png)
 
-Donut-overview
+## Donut - generalitati
 
 Grafic cu totalul orelor lucrate PE DOSARE conform selectiei.
 
-- filtrare dupa utilizatori
-  - in mod similar cu filtrarea descrisa la pagina “Heatmap”
+### filtrare dupa utilizatori
 
-    ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2040.png)
+- in mod similar cu filtrarea descrisa la pagina “Heatmap”
 
-- filtre predefinite
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2040.png)
 
-    Home - Anularea criteriilor de filtrare
+### filtre predefinite
 
-    ![selectie home](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2041.png)
+**Home** - Anularea criteriilor de filtrare
 
-    selectie home
+![selectie home](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2041.png)
 
-    Tot- se iau in calcul toate inregistrarile
+selectie home
 
-    ![selectie “Tot”](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2042.png)
+**Tot**- se iau in calcul toate inregistrarile
 
-    selectie “Tot”
+![selectie “Tot”](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2042.png)
 
-    Top 5 | Top10 | Top 15
+selectie “Tot”
 
-    ![selectie “Top 10”](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2043.png)
+**Top 5 | Top10 | Top 15**
 
-    selectie “Top 10”
+![selectie “Top 10”](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2043.png)
 
-    Aceste selectii evidentiaza Top “n” dosare, iar pe celelalte le  grupeaza generic ca “Altele”:
+selectie “Top 10”
 
-    ![rezultat filtrare “Top 10”](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2044.png)
+Aceste selectii evidentiaza Top “n” dosare, iar pe celelalte le  grupeaza generic ca “Altele”:
 
-    rezultat filtrare “Top 10”
+![rezultat filtrare “Top 10”](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2044.png)
 
-- filtrare din grid
+rezultat filtrare “Top 10”
+
+### filtrare din grid
 
 se pot rafina rezultatele cautarii cu filtrare din gridul din stanga, iar graficul se va sincroniza corespunzator
 
@@ -55,17 +56,17 @@ exemplu de filtrare la donut (1)
 
 exemplu de filtrare la donut (2)
 
-- sortarea din grid redeseneaza si graficul, in mod corespunzator
+### sortarea din grid redeseneaza si graficul, in mod corespunzator
 
 ![sortare](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2047.png)
 
 sortare
 
-- criterii de filtrare complexe - similar cu celelalte griduri de selectie
+### criterii de filtrare complexe - similar cu celelalte griduri de selectie
 
-    ![criterii complexe donut](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2048.png)
+![criterii complexe donut](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2048.png)
 
-    criterii complexe donut
+criterii complexe donut
 
 <aside>
 ℹ️ Legenda graficului este limitata la un numar mai redus.

@@ -1,0 +1,14 @@
+---
+sidebar_position: 0
+---
+import { overall_data } from '../../static/img/overall.js';
+const dataUrl = `data:image/png;base64,${overall_data}`;
+const img = new Image();
+img.src = dataUrl;
+
+# Vedere de ansamblu
+
+Per ansamlu lista arata asa:  
+<div>
+    <img src={dataUrl} alt="Overall data" />
+</div>

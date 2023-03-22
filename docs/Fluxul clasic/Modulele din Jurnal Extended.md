@@ -2,9 +2,9 @@
 sidebar_position: 5
 ---
 
-# Modulele din Jurnal Extended
+# O trecere prin modulele principale
 
-**user ANA sau OLIVIA**
+*user ANA sau OLIVIA*
 
 ## 1. HOME (general)
 
@@ -142,7 +142,7 @@ Modulul de facturare fiscala din Jurnal Gold nu este obligatoriu pe fluxul de lu
 
 De notat este de asemenea ca s-a realizat  si modulul de export al facturii in format electronic xml, conform legii.
 
-## 6. RAPOARTE (access in functie de rolul utilizatorului) 
+## 6. RAPOARTE (diferențiat)
 
 criterii multiple de selectie in functie de continut.
 
@@ -160,10 +160,10 @@ Resurse umane - timpi, norme, concedii invoiri
 
 Fiscale - facturi fiscale. sume diverse
 
-## 7. CAUTARE 
+## 7. CAUTARE
 
 cautare entitati/persoane/contracte/dosare
 
-## 8. SETARI 
+## 8. SETARI
 
 onorarii standard, activitati standard, emitenti si conturi bancare samd

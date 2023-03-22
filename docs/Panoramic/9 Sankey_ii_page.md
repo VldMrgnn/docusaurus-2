@@ -2,13 +2,15 @@
 sidebar_position: 9
 ---
 
-# Pagina Sankey II 👥
+# Pagina Sankey II
+
+👥 Acest grafic nu apare deloc pe ecran in cazul in care utilizatorul nu are drepturi extinse.
 
 ![sankey2_1.png](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/sankey2_1.png)
 
 ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2063.png)
 
-👥 Acest grafic nu apare deloc pe ecran in cazul in care utilizatorul nu are drepturi extinse.
+## Descriere
 
 Graficul prezinta modul in care sunt distribuite orele lucrate de catre avocati pe dosarele la care au lucrat.
 
@@ -16,57 +18,58 @@ Se pot evidentia cu usurinta dosarele comune, lucrarile de echipa samd
 
 Criteriile de selectie si filtrare sunt foarte similare cu cele prezentate anterior, insa informatia agregata in acest fel ofera o alta perspectiva.
 
-- filtrare dupa utilizatori
+## filtrare dupa utilizatori
 
-    in mod similar cu filtrarea descrisa la pagina “Heatmap”
+in mod similar cu filtrarea descrisa la pagina “Heatmap”
 
-    ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2040.png)
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2040.png)
 
-- filtre predefinite
-  - Home - anularea criteriilor de filtrare si revenire la valori implicite
+## filtre predefinite
 
-        ![sankey - home](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2050.png)
+- **Home** - anularea criteriilor de filtrare si revenire la valori implicite
 
-        sankey - home
+![sankey - home](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2050.png)
 
-  - Tot - se vor lua in calcul toate inregistrarile - ⚠️ graficul poate deveni prea aglomerat
+sankey - home
 
-        ![sankey “Tot”](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2051.png)
+- **Tot** - se vor lua in calcul toate inregistrarile - ⚠️ graficul poate deveni prea aglomerat
 
-        sankey “Tot”
+![sankey “Tot”](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2051.png)
 
-  - Top 5 | Top 10 | Top 15 - selectia celor mai importante “n” dosare, restul se vor grupa sub “Altele”
+sankey “Tot”
 
-        ![sankey Top 10](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2052.png)
+- **Top 5 | Top 10 | Top 15** - selectia celor mai importante “n” dosare, restul se vor grupa sub “Altele”
 
-        sankey Top 10
+![sankey Top 10](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2052.png)
 
-  - Swap - schimba sursa  cu destinatia graficului
+sankey Top 10
 
-        ![sankey swap](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2053.png)
+- **Swap** - schimba sursa  cu destinatia graficului
 
-        sankey swap
+![sankey swap](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2053.png)
 
-        e.g. sursa : avocatul | destinatia: dosarul
+sankey swap
 
-        ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2064.png)
+e.g. sursa : avocatul | destinatia: dosarul
 
-        e.g. sursa: dosarul | destinatia: avocatul
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2064.png)
 
-        ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2065.png)
+e.g. sursa: dosarul | destinatia: avocatul
 
-- filtre din grid
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2065.png)
 
-    sunt disponibile filtrele din capul de tabel al listei din stanga.
+## filtre din grid
 
-    ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2066.png)
+sunt disponibile filtrele din capul de tabel al listei din stanga.
 
-    similar se pot selecta si la acest nivel avocatii…
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2066.png)
 
-    ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2067.png)
+similar se pot selecta si la acest nivel avocatii…
 
-    Exemplu de selectie:
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2067.png)
 
-    ![Sankey2 - exemplu:  Partenerii ( Ana si Olivia) Top 10 dosare insa fara cele pe INTERN sai fara Altele](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2068.png)
+Exemplu de selectie:
 
-    Sankey2 - exemplu:  Partenerii ( Ana si Olivia) Top 10 dosare insa fara cele pe INTERN sai fara Altele
+![Sankey2 - exemplu:  Partenerii ( Ana si Olivia) Top 10 dosare insa fara cele pe INTERN sai fara Altele](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2068.png)
+
+Sankey2 - exemplu:  Partenerii ( Ana si Olivia) Top 10 dosare insa fara cele pe INTERN sai fara Altele

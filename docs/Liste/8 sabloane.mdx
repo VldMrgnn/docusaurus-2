@@ -1,0 +1,58 @@
+---
+sidebar_position: 8
+---
+import { templates1_data } from "../../static/img/templates_1.js";
+const templates1Url = `data:image/png;base64,${templates1_data}`;
+import { templates2_data } from "../../static/img/templates_2.js";
+const templates2Url = `data:image/png;base64,${templates2_data}`;
+import { templates3_data } from "../../static/img/templates_3.js";
+const templates3Url = `data:image/png;base64,${templates3_data}`;
+import { templates4_data } from "../../static/img/templates_4.js";
+const templates4Url = `data:image/png;base64,${templates4_data}`;
+const img1 = new Image();
+const img2 = new Image();
+const img3 = new Image();
+const img4 = new Image();
+img1.src = templates1Url;
+img2.src = templates2Url;
+img3.src = templates3Url;
+img4.src = templates4Url;
+
+# Șabloane de formate
+Probabil ca vor fi criterii preferate de selectie, ordonare si grupare la anumite liste. 
+
+Pentru a evita repetarea acelorasi operatiuni de formatare se pot salva formatele pentru utilizare ulterioară.
+
+Practic, programul vine cu un set brut de coloane READ-ONLY, care pot fi formatate după preferințele utilizatorului si salvate separat 
+pentru a fi folosite ulterior.
+<br/>
+
+<div>
+  <img src={templates1Url} alt="templates1_data" />
+</div>
+
+Pentu a salva un format se vor accesa optiunile din ecranul de selectie.
+Salvam o copie a formatului listei, așa cum vine din baza de date
+<br/>
+
+<div>
+  <img src={templates2Url} alt="templates2_data" />
+</div>
+
+<br />
+<br />
+Deschidem un orice format existent, il modificam si revenim pentru a-l suprascrie sau a-l salva sub un alt nume.
+
+<strong>{'Atenție '}</strong>
+Denumirile de formate nu pot fi duplicate.
+<br />
+<div>
+  <img src={templates3Url} alt="templates3_data" />
+</div>
+
+
+Stergem un format existent
+<br />
+<div>
+  <img src={templates4Url} alt="templates4_data" />
+</div>

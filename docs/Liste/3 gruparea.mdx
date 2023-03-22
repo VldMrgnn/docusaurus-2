@@ -1,0 +1,33 @@
+---
+sidebar_position: 3
+---
+
+import { group1_data } from "../../static/img/group_1.js";
+const dataUrl = `data:image/png;base64,${group1_data}`;
+const img = new Image();
+img.src = dataUrl;
+
+# Gruparea pe coloană
+
+Pentru a grupa după o coloană, **_se trage capul de coloană_** deasupra tabelului, in zona de grupare.
+<em>
+  Unde scrie: Trageți un antet de coloană aici pentru a grupa după acea coloană
+</em>
+<br/>
+<br/>
+
+
+<div>
+  <img src={dataUrl} alt="group1_data" />
+</div>
+
+Acolo unde este posibil, in general la coloanele de tip numeric sau la
+cele ce exprimă timpi se vor calcula automat sume sau alte agregate în
+funcție de coloanele grupate.
+
+Gruparea are sens când sunt mai multe înregistrări cu
+
+<strong>o valoare comună</strong>. De exemplu pentru un raport de timesheet,
+gruparea după un client sau un contract, samd.
+
+Se pot face grupări după mai multe coloane.

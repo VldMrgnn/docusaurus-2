@@ -1,0 +1,30 @@
+---
+sidebar_position: 5
+---
+
+import { search1_data } from "../../static/img/search_1.js";
+const dataUrl = `data:image/png;base64,${search1_data}`;
+const img = new Image();
+img.src = dataUrl;
+
+# Căutarea in conținut
+
+Cautarea se realizeaza in toate coloanele posibile, chiar si cele care
+nu sunt vizibile la momentul cautarii. Rezultatul este setul de date
+FILTRAT dupa textul introdus in caseta de cautare.
+
+Textul cautat este marcat cu galben.
+
+Daca rezultatul cautarii este nul, caseta de cautare devine rosie
+<br/>
+<br/>
+
+
+<div>
+  <img src={dataUrl} alt="group1_data" />
+</div>
+
+
+<strong>{'NOTĂ:'}</strong>
+Totalurile se recalculeaza la cautare, conform setului de date filtrat.
+    

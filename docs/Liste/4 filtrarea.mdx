@@ -1,0 +1,37 @@
+---
+sidebar_position: 4
+---
+import { filter1_data } from "../../static/img/filter_1.js";
+const dataUrl = `data:image/png;base64,${filter1_data}`;
+const img = new Image();
+img.src = dataUrl;
+
+# Filtrarea datelor
+
+Pentru a filtra o coloană se face click pe pictograma în formă de pâlnie din dreapta capului de coloană.
+
+<br/>
+<br/>
+
+
+<div>
+  <img src={dataUrl} alt="group1_data" />
+</div>
+
+Se bifează valorile dorite și se apasă butonul <strong>OK</strong>.
+Pentru a exclude cateva valori, se poate poate folosi opțiunea
+<strong> Selectează tot</strong> și apoi se debifează valorile de
+exclus.
+
+
+In panoul de filtrare se poate si căuta dupa un text anume, dacă
+formatul permite, pentru a găsi mai rapid criteriul de filtrare.
+
+Pentru câmpurile de tip dată, se poate filtra pe ani, luni, zile.
+
+Pentru <strong>anularea</strong> tuturor filtrelor si revenirea la
+starea initiala, se apasa butonul cu pictograma în formă de casă de deasupra tabelei.
+
+Pentru criterii complexe de filtrare, exista in josul paginii un buton
+"Crează criterii de filtrare".
+		

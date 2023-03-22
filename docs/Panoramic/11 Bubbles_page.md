@@ -8,11 +8,13 @@ sidebar_position: 11
 
 ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2069.png)
 
+## Descrierea și logica
+
 Graficul extinde criteriile de selectie si filtrare ale widgetului din pagina de garda.
 
 ℹ️ spre deosebire de celelalte grafice, acesta agrega toate datele din istoricul societatii
 
-Criteriul urmarit este “Ultima inregistrare in dosarul X”, tinand cont de toate dosarele ACTIVE,  conform selectiei si filtrelor.
+Criteriul urmarit este **“Ultima inregistrare in dosarul X”**, tinand cont de toate dosarele ACTIVE,  conform selectiei si filtrelor.
 
 Astfel  se pot identifica dosarele potential “uitate” sau neglijate.
 
@@ -22,84 +24,88 @@ Utilizatorul poate vedea la ce dosar a fost alocat si nu a mai efectuat lucrari 
 
 Anumite dosare, chiar daca au inregistrari recente la nivel de grup, pentru un utilizator pot aparea ca fiind “vechi” in cazul acesta nu a inregistrat activitati.
 
-- filtrare dupa utilizatori
+## filtrare dupa utilizatori
 
-    in mod similar cu filtrarea descrisa la pagina “Heatmap” si celelalte insa spre deosebire de acestea, va contine TOTI AVOCATII CARE AU FOST BIFATI pe vreunul dintre dosarele inca active din societate.
+in mod similar cu filtrarea descrisa la pagina “Heatmap” si celelalte insa spre deosebire de acestea, va contine TOTI AVOCATII CARE AU FOST BIFATI pe vreunul dintre dosarele inca active din societate.
 
-    ![Tag-box bubble](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2070.png)
+![Tag-box bubble](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2070.png)
 
-    Tag-box bubble
+Tag-box bubble
 
-    Se observa cu nu are facilitatea “Pin” - bazinul de selectie de utilizatori pentru acest grafic fiind diferit de celelalte
+Se observa cu nu are facilitatea “Pin” - bazinul de selectie de utilizatori pentru acest grafic fiind diferit de celelalte
 
-- filtrele predefinite
-  - Home - anularea filtrelor
+## filtrele predefinite
 
-        ![bubble - filtru predefinit - home](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2071.png)
+- **Home** - anularea filtrelor
 
-        bubble - filtru predefinit - home
+![bubble - filtru predefinit - home](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2071.png)
 
-  - Tot - se iau in considerare toate datele, ⚠️ se poate aglomera foarte tare graficul
+bubble - filtru predefinit - home
 
-        ![bubble - filtru predefinit -Tot](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2072.png)
+- **Tot** - se iau in considerare toate datele, ⚠️ se poate aglomera foarte tare graficul
 
-        bubble - filtru predefinit -Tot
+![bubble - filtru predefinit -Tot](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2072.png)
 
-  - Extremele ca vechime 3 | 5 | 7  dosare la care utilizatorul sau utilizatorii selectati nu au introdus activitati
+bubble - filtru predefinit -Tot
 
-        ![bubble - filtru predefinit - ancient 3, 5, 7](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2073.png)
+- **Extremele ca vechime 3 | 5 | 7  dosare la care utilizatorul sau utilizatorii selectati nu au introdus activitati**
 
-        bubble - filtru predefinit - ancient 3, 5, 7
+![bubble - filtru predefinit - ancient 3, 5, 7](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2073.png)
 
-- filtrele din gridul de selectie
-  - filtrul dupa Client si cel dupa Dosar
+bubble - filtru predefinit - ancient 3, 5, 7
 
-        ![bubble - filtru grid - client](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2074.png)
+## filtrele din gridul de selectie
 
-        bubble - filtru grid - client
+### filtrul dupa Client si cel dupa Dosar
 
-        ![bubble - filtru grid - contract](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2075.png)
+![bubble - filtru grid - client](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2074.png)
 
-        bubble - filtru grid - contract
+bubble - filtru grid - client
 
-        💡 Filtru special la “Bubble” - criteriul fiind Total ore. Se vor putea filtra cele cu “zero ore lucrate”
+![bubble - filtru grid - contract](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2075.png)
 
-        ![bubble - filtru - zero ore |  niste ore](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2076.png)
+bubble - filtru grid - contract
 
-        bubble - filtru - zero ore |  niste ore
+💡 Filtru special la “Bubble” - criteriul fiind Total ore. Se vor putea filtra cele cu “zero ore lucrate”
 
-        filtru dupa vechimea dosarului - mai ales la bazele de date mai vechi are sens sa dorim sa filtram de ex. “dosarele la care nu s-a umblat din 2012“  
+![bubble - filtru - zero ore |  niste ore](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2076.png)
 
-        ![bubble - filtru dupa vechime. In baza de demo nu are mare sens, inrucat nu avem dosare/ activitati antice.](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2077.png)
+bubble - filtru - zero ore |  niste ore
 
-        bubble - filtru dupa vechime. In baza de demo nu are mare sens, inrucat nu avem dosare/ activitati antice.
+filtru dupa vechimea dosarului - mai ales la bazele de date mai vechi are sens sa dorim sa filtram de ex. “dosarele la care nu s-a umblat din 2012“  
 
-- graficul propriu-zis
+![bubble - filtru dupa vechime. In baza de demo nu are mare sens, inrucat nu avem dosare/ activitati antice.](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2077.png)
 
-     Dimensiuni
+bubble - filtru dupa vechime. In baza de demo nu are mare sens, inrucat nu avem dosare/ activitati antice.
 
-    Bulinele au dimensiuni sugestiv proportionale  (limitat si corectat) cu numarul total de ore prestate pe dosarul respectiv, **conform selectiei**
+## graficul propriu-zis
 
-    Cele cu activitate “Zero” au o dimensiune prestabilita.
+### Dimensiuni
 
-    Culori
+Bulinele au dimensiuni sugestiv proportionale  (limitat si corectat) cu numarul total de ore prestate pe dosarul respectiv, **conform selectiei**
 
-    Rosu - dosar vechi
+Cele cu activitate “Zero” au o dimensiune prestabilita.
 
-    ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2078.png)
+### Culori
 
-    Turcoaz - dosar neutru, uzual, in termen
+#### Rosu - dosar vechi
 
-    ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2079.png)
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2078.png)
 
-    Verde - dosar recent
+#### Turcoaz - dosar neutru, uzual, in termen
 
-    ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2080.png)
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2079.png)
 
-    Rosu inchis / maro - dosare cu “Zero activitate”  -au toate aceeasi dimensiune
+#### Verde - dosar recent
 
-    ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2081.png)
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2080.png)
 
-- criterii de filtrare complexe - similar cu celelalte griduri de selectie
+#### Rosu inchis / maro - dosare cu “Zero activitate”  -au toate aceeasi dimensiune
 
-    ![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2082.png)
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2081.png)
+
+## criterii de filtrare complexe 
+
+similar cu celelalte griduri de selectie
+
+![Untitled](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/Untitled%2082.png)

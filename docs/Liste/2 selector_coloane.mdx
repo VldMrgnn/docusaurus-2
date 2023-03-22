@@ -1,0 +1,23 @@
+---
+sidebar_position: 2
+---
+import { columnchooser1_data } from '../../static/img/column_chooser.js';
+const dataUrl = `data:image/png;base64,${columnchooser1_data}`;
+const img = new Image();
+img.src = dataUrl;
+
+ # Selectarea coloanelor vizibile
+ 
+ Implicit, listele returnează un set de coloane destul de extins, astfel încât să se poată genera rapoarte relevante diferite, pe baza aceluiași set de date.
+
+ Pentru a modifica setul initial de coloane vizibile, se face click pe butonul corespunzator din bara de instrumente (vezi mai jos).
+
+ Apoi se poate trage un cap de coloană în sau din panoul de coloande disponibile.
+
+ <div>
+    <img src={dataUrl} alt="column_chooser" />
+</div>
+
+Avem practic un panou unde punem coloanele ca sa le ascundem si de unde le putem scoate din nou daca avem nevoie.
+
+Coloanele rămase vizibile pot fi redimenionate si ordonate.
