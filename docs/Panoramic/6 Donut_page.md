@@ -1,8 +1,8 @@
 ---
-sidebar_position: 9
+sidebar_position: 6
 ---
 
-# Page "Donut"
+# Donut - Pagina si tabelul
 
 ![donut1.png](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/donut1.png)
 

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# Widgetul "Donut"
+# Donut - Widgetul
 
 Graficul din pagina de garda prezinta Top cinci clienti (indiferent de nr de dosare) in functie de orele lucrate, din ultimul an.
 

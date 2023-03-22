@@ -1,7 +1,7 @@
 ---
-sidebar_position: 3
+sidebar_position: 10
 ---
-# Bubble Widget
+# Bubble - Widgetul
 
 Graficul arata ultimul acces al userului (sau al oricui din  grup - daca selectia e pe grup ) la dosarele ACTIVE.
 

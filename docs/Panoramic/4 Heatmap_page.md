@@ -1,8 +1,8 @@
 ---
-sidebar_position: 8
+sidebar_position: 4
 ---
 
-# Pagina "Heatmap" 
+# Heatmap - Pagina dedicata
 
 ![heatmap1.png](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/heatmap1.png)
 

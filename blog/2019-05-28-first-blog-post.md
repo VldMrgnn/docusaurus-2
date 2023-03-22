@@ -5,7 +5,7 @@ authors: vlad
 tags: [welcome, what's next]
 ---
 
-# Bine ați venit pe blogul nostru!
+# Bine ați venit pe blogul nostru
 
 Ma numesc Vlad Mărginean și sunt inițiatorul Jurnal Gold.
 
@@ -33,4 +33,3 @@ Ce pregatim:
 Voi reveni cu detalii in curand. Intre timp va rog sa nu ezitati sa ne contactati pentru orice intrebare sau sugestie.
 
 Daca doriti sa aflati mai multe despre noi, va invit sa vizitati site-ul nostru: [https://www.softwiz.ro](https://www.softwiz.ro)
-

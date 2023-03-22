@@ -1,8 +1,8 @@
 ---
-sidebar_position: 7
+sidebar_position: 2
 ---
 
-# Pagina "Timesheet"
+# Timesheet - tabelul cu activități
 
 ![TIMESHEET1.png](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/TIMESHEET1.png)
 

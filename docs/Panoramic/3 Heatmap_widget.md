@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Widgetul "Heatmap"
+# Heatmap - Widgetul
 
 Graficul prezinta fiecare zi din calendar, colorata in functie de gradul de realizare al baremului de ore stabilite in program
 
