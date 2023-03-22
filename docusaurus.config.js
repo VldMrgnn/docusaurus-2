@@ -6,14 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Pagina de ajutor pentru JurnalGold',
-  tagline: 'pagina aceasta este in constructie',
+  title: 'Documentație pentru Jurnal Gold',
+  tagline: 'Aeastă pagină este în construcție',
   url: 'https://quick.jurnalgold.ro',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'vladmarginean@softwiz.ro', // Usually your GitHub org/user name.
