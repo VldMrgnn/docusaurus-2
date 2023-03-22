@@ -3,7 +3,7 @@ sidebar_position: 10
 ---
 # Bubble - Widgetul
 
-Graficul arata ultimul acces al userului (sau al oricui din  grup - daca selectia e pe grup ) la dosarele ACTIVE.
+Graficul arata ultimul acces al userului (sau al oricui din  grup - daca selecția e pe grup ) la dosarele ACTIVE.
 
 Astfel se pot identifica dosarele vechi, uitate deschise sau dosarele la care utilizatorul a fost alocat si nu a efectuat lucrari.
 
