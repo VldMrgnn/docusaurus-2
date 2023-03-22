@@ -2,46 +2,28 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Vom trece in revista cateva facilitati din Jurnal Gold
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Jurnal Gold este un sistem de gestiune a practicii avocatiale.
 
-## Getting Started
+## Cum este structurat Jurnal Gold
 
-Get started by **creating a new site**.
+Softul are mai multe intefete, centrate asupra principalelor functii ale unui cabinet de avocatura.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Utilizatorii pot interactiona cu sistemul prin urmatoarele mijloace:
 
-### What you'll need
+ Modulele principale:
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+ Jurnal Extended
+ Junral Quick
 
-## Generate a new site
+ Module auxiliare:
+ Jurnal Mobile, Jurnal Web,  Jurnal Quick Online
 
-Generate a new Docusaurus site using the **classic template**.
+ Module de integrare diverse (Print Manager, User Config, etc)
 
-The classic template will automatically be added to your project after you run the command:
+Ca arhitectura, Jurnal Gold este un sistem client-server, care functioneaza pe baza unui server de baze de date SQL Server.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Nota
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+> Acest tutorial presupune ca aveti deja instalat Jurnal Gold si ca aveti acces la interfata de administrare a sistemului.
