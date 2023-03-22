@@ -57,19 +57,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Help',
+        title: 'Început',
         logo: {
           alt: 'Jurnal Gold Logo',
-          src: 'img/jurnal-gold-logo',
+          src: 'img/jurnalgold-icon-64x64.svg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentație',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Resurse', position: 'left', enabled:false},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
