@@ -7,9 +7,9 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  --ifm-color-primary: #3578e5;
+  --ifm-color-primary: #5586d4;
   /*#25c2a0;*/
-  --ifm-color-primary-dark: #1d68e1;
+  --ifm-color-primary-dark: #1b62d4;
   /*rgb(33, 175, 144);*/
   --ifm-color-primary-darker: #1b62d4;
   /*rgb(31, 165, 136);*/
@@ -27,6 +27,40 @@
   /*95%;*/
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
+
+.cls-1,
+.cls-2{
+  fill: #b6a796 !important;
+}
+.myhero{
+  background-image: linear-gradient(
+    70deg,
+    hsl(208deg 67% 7%) 0%,
+    hsl(208deg 57% 11%) 3%,
+    hsl(209deg 57% 15%) 5%,
+    hsl(209deg 56% 19%) 8%,
+    hsl(209deg 55% 23%) 11%,
+    hsl(210deg 54% 27%) 14%,
+    hsl(211deg 52% 32%) 17%,
+    hsl(212deg 50% 37%) 21%,
+    hsl(213deg 49% 42%) 24%,
+    hsl(214deg 47% 47%) 29%,
+    hsl(216deg 49% 52%) 35%,
+    hsl(217deg 60% 58%) 58%,
+    hsl(216deg 49% 52%) 68%,
+    hsl(214deg 47% 47%) 73%,
+    hsl(213deg 49% 42%) 77%,
+    hsl(212deg 50% 37%) 81%,
+    hsl(211deg 52% 32%) 84%,
+    hsl(210deg 54% 27%) 87%,
+    hsl(209deg 55% 23%) 90%,
+    hsl(209deg 56% 19%) 92%,
+    hsl(209deg 57% 15%) 95%,
+    hsl(208deg 57% 11%) 98%,
+    hsl(208deg 67% 7%) 100%
+  )!important;
+}
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 
