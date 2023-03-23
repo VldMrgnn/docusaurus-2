@@ -7,7 +7,7 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  --ifm-color-primary: #5586d4;
+  --ifm-color-primary: #587ec8;
   /*#25c2a0;*/
   --ifm-color-primary-dark: #1b62d4;
   /*rgb(33, 175, 144);*/
@@ -30,7 +30,7 @@
 
 .cls-1,
 .cls-2{
-  fill: #b6a796 !important;
+  fill: #587ec8 !important;
 }
 .myhero{
   background-image: linear-gradient(
