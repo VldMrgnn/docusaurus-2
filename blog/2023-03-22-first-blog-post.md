@@ -26,7 +26,7 @@ Acum suntem concentrati, pe langa suportul uzual pe care il furnizam clientilor 
 Ce pregatim:
 
 - un Jurnal mai suplu si mai usor de instalat si configurat.
-- dorim cream si un flux de lucru "pe repede inainte" in Jurnal, care sa scurteze timpul si operatiile necesare de la prolurea unui client ( inregistrare/  contract / dosar / lucrari ) pana la facturare.
+- dorim cream si un flux de lucru "pe repede inainte" in Jurnal, care sa scurteze timpul si operatiile necesare de la prelurea unui client ( inregistrare/  contract / dosar / lucrari ) pana la facturare.
 - servicii online simple si eficiente pentru gestionarea de update si licente.
 
 Voi reveni cu detalii in curand. Intre timp va rog sa nu ezitati sa ne contactati pentru orice intrebare sau sugestie.
