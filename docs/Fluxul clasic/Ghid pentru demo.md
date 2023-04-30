@@ -1,5 +1,6 @@
 ---
-sidebar_position: 0
+sidebar_position: 1
+sidebar_label: Ghid pentru versiunea demo
 ---
 
 # Ghid pentru Jurnal Gold Demo
