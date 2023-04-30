@@ -66,7 +66,13 @@ const config = {
             position: 'left',
             label: 'Documentație',
           },
-          {to: '/blog', label: 'Resurse', position: 'left', enabled:false},
+          {
+            href: 'https://admin.jurnalgold.ro',
+            label: 'JGAP',
+            position: 'left',
+            
+          },
+          // {to: '/blog', label: 'Blog', position: 'left', enabled:false},
           {
             href: 'https://github.com/SoftwizCreation/Jurnal-Gold',
             label: 'GitHub',

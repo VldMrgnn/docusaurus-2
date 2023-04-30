@@ -3,38 +3,45 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
+  // {
+  //   title: 'Pregatim un demo',
+  //   Svg: require('@site/static/img/jurnal-gold-logo.svg').default,
+  //   description: (
+  //     <>
+  //     Pregatim infrastructura pentru a un demo suplu si accesibil.
+  //     </>
+  //   ),
+  // },
   {
-    title: 'Pregatim un demo',
+    title: 'Panoul de Administrare',
     Svg: require('@site/static/img/jurnal-gold-logo.svg').default,
+    // require('@site/static/img/softwiz-creation-logo.svg').default,
     description: (
       <>
-      Pregatim infrastructura pentru a un demo suplu si accesibil.
+      <p>
+      Explorati liber versiunea demo, cu cele mai recente functionalitati.
+      </p>
+      <p>
+      Obtineti acces personalizat pentru functionalitati de gestionare a utilizatorilor si licentelor.
+      </p>
+      <a href="https://admin.jurnalgold.ro" target="_blank" rel="noopener noreferrer">Accesati de aici</a>
       </>
     ),
   },
-  {
-    title: 'Pregatim un panou de administrare',
-    Svg: require('@site/static/img/softwiz-creation-logo.svg').default,
-    description: (
-      <>
-         In curand, acces la resurse personalizate si panoul de administrare.
-      </>
-    ),
-  },
-  {
-    title: 'Avem o echipa de suport',
-    Svg: require('@site/static/img/jurnal-gold-logo.svg').default,
-    description: (
-      <>
-       Puteti cere oricand acces la un demo, o versiune de testare sau o prezentare.
-      </>
-    ),
-  },
+  // {
+  //   title: 'Avem o echipa de suport',
+  //   Svg: require('@site/static/img/jurnal-gold-logo.svg').default,
+  //   description: (
+  //     <>
+  //      Puteti cere oricand acces la un demo, o versiune de testare sau o prezentare.
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
