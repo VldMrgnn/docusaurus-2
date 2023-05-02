@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Documentație pentru Jurnal Gold',
   tagline: 'Aeastă pagină este în construcție',
-  url: 'https://quick.jurnalgold.ro',
+  url: 'https://help.jurnalgold.ro',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -33,16 +33,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -54,117 +50,150 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Început',
         logo: {
-          alt: 'Jurnal Gold Logo',
-          src: 'img/jurnalgold-icon-64x64.svg',
+          alt: "Jurnal Gold Logo",
+          src: "img/jurnalgold-icon-64x64.svg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documentație',
+            to: "https://help.jurnalgold.ro",
+            label: "Documentație",
+            position: "left",
+            target: "_self",
+            className: "navbar-item-help",
           },
           {
-            href: 'https://admin.jurnalgold.ro',
-            label: 'JGAP',
-            position: 'left',
-            
-          },
-          // {to: '/blog', label: 'Blog', position: 'left', enabled:false},
-          {
-            href: 'https://github.com/SoftwizCreation/Jurnal-Gold',
-            label: 'GitHub',
-            position: 'right',
+            to: "https://admin.jurnalgold.ro",
+            label: "Administrare",
+            position: "left",
+            target: "_self",
+            className: "navbar-item-admin",
           },
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Pagina de Web',
-            items: [
-              {
-                label: 'Softwiz, contact',
-                href: 'https://www.softwiz.ro/contact/',
-              }
-            ],
-          },
-          {
-            title: 'Altele',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              // {
-              //   label: 'Email:',
-              //   href: 'mailto:support@softwiz.ro',
-              // },{
-              //   label: 'Telefon:',
-              //   href: 'tel:+40722600000',
-              // }
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Softiwiz Creation srl`,
+        style: "dark",
+        links: [],
+        copyright: `Softwiz Creation © ${new Date().getFullYear()} Jurnal Gold Admin Panel (Documentatie).`,
       },
-      plugins: [
-        [
-          '@docusaurus/plugin-content-docs',
-          {
-            id: 'my-docs',
-            path: 'docs',
-            sidebarPath: require.resolve('./sidebars.js'),
-            editUrl: 'https://github.com/<org>/<repo>/edit/main/docs/',
-            routeBasePath: 'docs',
-            showLastUpdateAuthor: true,
-            showLastUpdateTime: true,
-          },
-        ],
-        [
-          '@docusaurus/plugin-content-pages',
-          {
-            path: 'pages',
-          },
-        ],
-        [
-          '@docusaurus/plugin-ideal-image',
-          {
-            sizes: [320, 640, 960, 1200, 1600, 2000],
-            quality: 70,
-            max: 2000,
-            min: 640,
-            steps: 6,
-          },
-        ],
-        [
-          '@docusaurus/plugin-content-docs',
-          {
-            id: 'withStaticFiles',
-            path: 'withStaticFiles',
-            editUrl: 'https://github.com/<org>/<repo>/edit/main/docs/',
-            sidebarPath: require.resolve('./sidebars.js'),
-            withStaticFiles: true, // Enable the withStaticFiles plugin
-          },
-        ],
-      ],
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    })
+    // ({
+    //   navbar: {
+    //     title: 'Început',
+    //     logo: {
+    //       alt: 'Jurnal Gold Logo',
+    //       src: 'img/jurnalgold-icon-64x64.svg',
+    //     },
+    //     items: [
+    //       {
+    //         type: 'doc',
+    //         docId: 'intro',
+    //         position: 'left',
+    //         label: 'Documentație',
+    //       },
+    //       {
+    //         href: 'https://admin.jurnalgold.ro',
+    //         label: 'JGAP',
+    //         position: 'left',
+            
+    //       },
+    //       // {to: '/blog', label: 'Blog', position: 'left', enabled:false},
+    //       {
+    //         href: 'https://github.com/SoftwizCreation/Jurnal-Gold',
+    //         label: 'GitHub',
+    //         position: 'right',
+    //       },
+    //     ],
+    //   },
+    //   footer: {
+    //     style: 'dark',
+    //     links: [
+    //       {
+    //         title: 'Docs',
+    //         items: [
+    //           {
+    //             label: 'Tutorial',
+    //             to: '/docs/intro',
+    //           },
+    //         ],
+    //       },
+    //       {
+    //         title: 'Pagina de Web',
+    //         items: [
+    //           {
+    //             label: 'Softwiz, contact',
+    //             href: 'https://www.softwiz.ro/contact/',
+    //           }
+    //         ],
+    //       },
+    //       {
+    //         title: 'Altele',
+    //         items: [
+    //           {
+    //             label: 'Blog',
+    //             to: '/blog',
+    //           },
+    //           // {
+    //           //   label: 'Email:',
+    //           //   href: 'mailto:support@softwiz.ro',
+    //           // },{
+    //           //   label: 'Telefon:',
+    //           //   href: 'tel:+40722600000',
+    //           // }
+    //         ],
+    //       },
+    //     ],
+    //     copyright: `Copyright © ${new Date().getFullYear()} Softiwiz Creation srl`,
+    //   },
+    //   plugins: [
+    //     [
+    //       '@docusaurus/plugin-content-docs',
+    //       {
+    //         id: 'my-docs',
+    //         path: 'docs',
+    //         sidebarPath: require.resolve('./sidebars.js'),
+    //         editUrl: 'https://github.com/<org>/<repo>/edit/main/docs/',
+    //         routeBasePath: 'docs',
+    //         showLastUpdateAuthor: true,
+    //         showLastUpdateTime: true,
+    //       },
+    //     ],
+    //     [
+    //       '@docusaurus/plugin-content-pages',
+    //       {
+    //         path: 'pages',
+    //       },
+    //     ],
+    //     [
+    //       '@docusaurus/plugin-ideal-image',
+    //       {
+    //         sizes: [320, 640, 960, 1200, 1600, 2000],
+    //         quality: 70,
+    //         max: 2000,
+    //         min: 640,
+    //         steps: 6,
+    //       },
+    //     ],
+    //     [
+    //       '@docusaurus/plugin-content-docs',
+    //       {
+    //         id: 'withStaticFiles',
+    //         path: 'withStaticFiles',
+    //         editUrl: 'https://github.com/<org>/<repo>/edit/main/docs/',
+    //         sidebarPath: require.resolve('./sidebars.js'),
+    //         withStaticFiles: true, // Enable the withStaticFiles plugin
+    //       },
+    //     ],
+    //   ],
+    //   prism: {
+    //     theme: lightCodeTheme,
+    //     darkTheme: darkCodeTheme,
+    //   },
+    // }),
 };
 
 module.exports = config;
