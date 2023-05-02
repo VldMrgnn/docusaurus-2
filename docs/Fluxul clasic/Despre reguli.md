@@ -6,7 +6,7 @@
 
 Ca punct de pornire putem avea urmatoarele reguli pentru completarea de activitati:
 
-1. Avocatul are acees deplin la activitatile proprii.
+1. Avocatul are acces deplin la activitatile proprii.
 2. Avocatul poate opera numai asupra activitatilor proprii
 3. Avocatul are acces numai la dosarele atribuite lui
 4. Avocatul nu vizualizeaza aspectele financiare si nici modurile de facturare.
