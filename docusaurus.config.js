@@ -1,9 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
+import { inject } from '@vercel/analytics';
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+inject();
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Documentație pentru Jurnal Gold',
