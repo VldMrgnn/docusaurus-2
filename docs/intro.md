@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# In linii mari
+# Aspecte generale
 
 Jurnal Gold este un sistem de gestiune a practicii avocatiale.
 
