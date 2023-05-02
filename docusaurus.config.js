@@ -14,19 +14,12 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'vladmarginean@softwiz.ro', // Usually your GitHub org/user name.
   projectName: 'docusaurus-2', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ro',
-    locales: ['en','ro'],
+    locales: ['ro', 'en'],
   },
-
   presets: [
     [
       'classic',
@@ -43,7 +36,6 @@ const config = {
       }),
     ],
   ],
-  // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -77,6 +69,21 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'W87288CRBD',
+        // Public API key: it is safe to commit it
+        apiKey: 'b99b5058451abcd93e15acb574a3ae27',
+        indexName: 'help-jurnalgold',
+        contextualSearch: true,
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+        searchPagePath: 'search',
+        placeholder: "caută ",
+        language: 'ro',
       },
     })
    };
