@@ -1,0 +1,8 @@
+{
+  "label": "Cabinet Individual eFactura",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Modul simplu, pentru utilizatorii Cabinete Individuale, colaboratori ai societatii de avocatura care detine o licenta de Jurnal Gold."
+  }
+}

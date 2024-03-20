@@ -1,0 +1,133 @@
+---
+sidebar_position: 1
+---
+
+# Initializarea modulului de facturare electronica - eFactura Individual
+
+:::note
+Presupunem ca utilizatorul este deja *in posesia unei chei SPV* si ca societatea si-a exprimat acordul pentru a se utilza modulul de facturare electronica in scop personal si a emis o solicitare in acest sens.
+:::
+
+La primirea unei astfel de solicitari, se creaza deja o zona de lucru virtuala pentru gestionarea operatiunilor acestui utilizator.
+
+## Pasul 1: Autentificarea in Jurnal Gold Admin Panel
+
+Utilizatorul (dvs.) va accesa Jurnal Gold Admin Panel, la adresa [https://admin.jurnalgold.ro/](https://admin.jurnalgold.ro/) si se va inregistra ca utilizator nou.
+
+Se urmeaza pasii de inregistrare, iar la final se va primi un email de confirmare.
+
+![Imagine - creare user JGAP](../efactura/Imagini%20eFactura/newjgap.png)
+
+Dupa crearea si confirmarea contului, nu mai sunt necesare operatiuni in Jurnal Gold Admin Panel.
+
+## Pasul 2: Logarea in Jurnal Gold  - modulul individual
+
+Sistemul Jurnal Gold va avea activata optiunea de accesare a modulului personal, la login - butonul din dreapta jos.
+
+![Captura - ecran de login](../efactura/Imagini%20eFactura/login2.png)
+
+## Pasul 3: Prima accesare - Autorizarea cheii SPV
+
+Autorizarea cheii SPV se face din meniul din dreapta sus, sub numele dvs.
+
+Nota:
+
+	- Dispozitivul USB trebuie sa fie conectat si instalat in momentul in care se solicita inregistrarea cheii SPV.
+	- Trebuie sa cunoasteti parola de acces la dispozitivul USB. (semnatura electronica)
+	- Recommandam sa bifati "Tine-ma minte" pentru a nu fi nevoie sa introduceti parola la fiecare accesare.
+
+- se introduce disponitivul USB in portul USB al calculatorului
+- se apasa butonul "Autorizeaza cheia SPV"
+
+![Captura - autorizare cheie SPV](../efactura/Imagini%20eFactura/autorizare-cheie-1.png)
+
+- se introduce parola de acces la dispozitivul USB
+
+![Captura - parola token](../efactura/Imagini%20eFactura/introducerePassToken.png)
+
+- se asteapta confirmarea autorizarii
+
+![Captura - confirmare autorizare](../efactura/Imagini%20eFactura/confirmareToken.png)
+
+:::tip
+Pentru a verifica si mai tarzu daca cheia SPV este autorizata, se poate face click pe textul "info", incercuit, din ecranul de autorizare.
+Se va interoga serverul ANAF pentru a verifica daca cheia SPV este autorizata. 
+Se va afisa un mesaj de confirmare sau de eroare.
+:::
+
+
+## Pasul 4: Prima accesare - Setari initiale
+
+La prima accesare, este necesara completarea unor date personale si a cheii SPV.
+ 
+- Se completeaza datele Societatii dvs., din pagina "Setari" -> "Emitentul facturii"
+
+
+![poza cu datele societatii](../efactura/Imagini%20eFactura/setaridatecabinet.png)
+
+- Se completeaza conturile bancare ale societatii dvs., din pagina "Setari" -> "Conturi bancare"
+
+![poza cu conturile bancare](../efactura/Imagini%20eFactura/setariconturi.png)
+
+- Se initalizeaza seriile de factura, setand valoarea initiala a acestora.
+
+![poza cu seriile de facturi](../efactura/Imagini%20eFactura/setarifacturier.png)
+
+:::note
+Operatiunile de setare a datelor societatii sunt standard si destul de intuitive, astfel incat nu am detaliat fiecare pas.
+:::
+ 
+
+## Pasul 5: Emiterea primei facturi
+
+Emiterea in sine a facturii fiscale, nu difera foarte mult de modul clasic de lucru din Jurnal Gold.
+
+- Se acceseaza Facturi, in tabul principal "Urmarire". Acesta este locul unde se vede, in  (1) Urmarire facturi emise si (2) Mesaje SPV ,
+toata activitatea legata de facturare electronica.
+
+![poza cu facturi urmarire](../efactura/Imagini%20eFactura/facturiurmarire0.png)
+
+- Se apasa butonul "+" pentru a emite o factura noua.
+
+- Se completeaza datele facturii, se adauga produsele si se salveaza factura.
+
+- La salvarea facturii, va aparea un ecran pentru transmiterea acesteia catre ANAF, ca in imaginea de mai jos:
+
+![poza cu salvare eFactura](../efactura/Imagini%20eFactura/salvareefactura0.png)
+
+### TRANSMITEREA propriu-zisa a facturii catre ANAF, 
+urmeaza un flux simplu si intuitiv in cinci clickuri. Se face click consecutiv pe 
+<ol>
+<li> <strong>Genereaza XML</strong> - se genereaza fisierul XML si se salveaza pe calculator</li>
+
+![poza cu click1](../efactura/Imagini%20eFactura/click1.png)
+
+<li> <strong>Valideaza XML</strong> - se valideaza fisierul XML generat atat conform unui set local de reguli de validare cat si ononline, pe situl anaf</li>
+
+![poza cu click2](../efactura/Imagini%20eFactura/click2.png)
+
+<li> <strong>Transmite eFactura</strong> - se trimite fisierul XML catre ANAF</li>
+
+![poza cu click3](../efactura/Imagini%20eFactura/click3.png)
+
+:::note
+Pasii urmatori sunt optionali, dar utili pentru a verifica starea unei facturi anume, sau pentru a vedea cat mai repede daca operatiunea a avut sau nu succes.
+:::
+
+
+<li> <strong>Cere rezultatul</strong> - se verifica daca ANAF a primit si procesat factura</li>
+
+![poza cu click4](../efactura/Imagini%20eFactura/click4.png)
+
+<li> <strong>Descarcarea rezultatului si accesul la fisier</strong> - se descarca raspunsul de la ANAF. Se deschide directorul local unde s-a stocat temporar o copie a fisierului de raspuns.</li>
+
+![poza cu click5](../efactura/Imagini%20eFactura/click5.png)
+
+</ol>
+
+
+:::note
+Pasii optionali sunt utili pentru a verifica starea unei facturi anume, sau pentru a vedea cat mai repede daca operatiunea a avut sau nu succes.
+Operatiunile pot dura un timp (de ordinul secundelor in mod uzual) pentru validarea facturii.
+Acelasi raspuns il veti obtine si mai tarziu in pagina "Mesaje SPV" care va descarca TOATE mesajele de al ANAF, atat aceasta factura cat si cele de furnizor.
+:::
