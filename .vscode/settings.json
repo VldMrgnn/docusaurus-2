@@ -23,6 +23,8 @@
 		"menu.selectionForeground": "#2979FF",
 		"menubar.selectionForeground": "#2979FF",
 		"editor.findMatchBorder": "#2979FF",
-		"selection.background": "#2979FF40"
+		"selection.background": "#2979FF40",
+		"peekViewTitleLabel.foreground": "#649662",
+		"peekViewTitleDescription.foreground": "#da5359"
 	}
 }

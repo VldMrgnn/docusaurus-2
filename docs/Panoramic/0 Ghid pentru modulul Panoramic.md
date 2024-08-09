@@ -10,9 +10,10 @@ O scurta trecere in revista a principalelor functionalitati din modulul experime
 
 Modulul reuneste cateva elemente grafice si tabelare pentru vizualizarea activitatilor.
 
-Pentru moment (sept 2022) modulul este disponibil numai in cadrul aplicatiei Jurnal Quick, intr-un kit experimental si il consideram un “release candidate”.
+<!-- Pentru moment (sept 2022) modulul este disponibil numai in cadrul aplicatiei Jurnal Quick, intr-un kit experimental si il consideram un “release candidate”. -->
+Modulul este integrat implicit dar optional in aplicatia Jurnal Gold Extended si este disponibil oricarui utilizator cu drepturi de acces.
 
-Modulul este accesibil in tabul “Tablou de bord”
+Modulul este accesibil in categoria “Panoramic” din meniul principal.
 
 ![panorama.png](Ghid%20pentru%20modulul%20Panoramic%20c19cdb04c3584e0eb4af6560ae6704b6/panorama.png)
 
