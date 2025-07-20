@@ -10,7 +10,7 @@ sidebar_position: 8
 
 ## Descriere
 
-Graficul prezinta corespondenta “Luna calendaristica” <-> “Dosar” in functie de numarul de ore lucrate, cumulat in luna respectiva, conform criteriilor de selectie din lista din stanga.
+Graficul prezinta corespondenta “Luna calendaristica” &lt;-&gt; “Dosar” in functie de numarul de ore lucrate, cumulat in luna respectiva, conform criteriilor de selectie din lista din stanga.
 
 ## filtrare dupa utilizatori
 
