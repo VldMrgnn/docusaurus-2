@@ -66,7 +66,7 @@ Sunt și alte elemente care atrag atenția asupra unei posibile erori (mesaje, c
 
 ## Trecerea în revistă a elementelor de introducere
 
-Fiecare element în parte a fost descris ca funcționalitate în capitolul [Elementele vizuale](./1-Elementele-vizuale.md)
+Fiecare element în parte a fost descris ca funcționalitate în capitolul [Elementele vizuale](./1%20Elementele%20vizuale.md)
 Vom reveni acum doar pentru a puncta rolul respectivului element în procesul de introducere a unei activități.
 
 ### Calendar - Caseta de dată
