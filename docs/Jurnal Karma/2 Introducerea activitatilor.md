@@ -4,202 +4,129 @@ sidebar_position: 2
 
 # Introducerea Activităților (Timesheet)
 
-## Dashboard principal
+## Preambul
+Introducerea se efectuează în Formularul de editare a activității.
 
-După autentificare, veți accesa dashboard-ul principal care oferă o vedere de ansamblu asupra activităților dumneavoastră.
+![worknew-empty](./ImaginiJurnalKarma/worknew-empty.png)
 
-### Elemente principale
+### Logica de completare - generalități
 
-#### 1. **Bara de navigare**
-- Logo Jurnal Gold Karma
-- Meniu principal (Dashboard, Timesheet, Rapoarte)
-- Notificări și setări utilizator
-- Buton de deconectare
+Aplicația sugerează **valori implicite** pentru anumite câmpuri, în funcție de context.
 
-#### 2. **Widget-uri dashboard**
-- **Activități recente**: Ultimele 10 activități introduse
-- **Timp total azi**: Suma orelor lucrate în ziua curentă
-- **Dosare active**: Dosarele cu activitate în ultima săptămână
-- **Deadline-uri**: Termene apropiate care necesită atenție
+Apoi procedează la completarea **câmp cu câmp** a datelor din Formularul de introducere a activităților.
 
-#### 3. **Acces rapid**
-- Buton "Adaugă activitate" prominent
-- Toolbar cu funcții de editare și export
-- Filtre rapide pentru vizualizarea datelor
-- Funcții de clipboard pentru copierea activităților
+#### Completarea unei casete se face 
+   - fie prin **selecție** din Panoul de selecție (Calendar, Avocat, Client/Contract, Domeniul de activitate, Activitatea standard, Solicitantul). Se deschide panoul (câteva exemple mai jos) și din panou se alege valoarea corespunzătoare.
+   - fie prin **scriere directă** în editor (Activitate, Observații).
 
-## Introducerea unei activități noi
+##### Selecția: Deschiderea panoului de selecție
 
-### Metoda 1: Formular standard
+- A) Fie că selectăm pe rând fiecare element din panoul de selecție din stânga:
 
-#### Pasul 1: Accesarea formularului
-1. Click pe butonul **"+ Adaugă activitate"** din dashboard
-2. Sau navigați la **Timesheet → Activitate nouă**
+- B) Fie că deschidem fiecare element folosind săgeata stânga din editor
+ 
+<a id="modificare-data"></a> Spre exemplu, pentru a modifica valoarea din caseta "data"
 
-#### Pasul 2: Completarea informațiilor de bază
+![worknew-calendar-01](./ImaginiJurnalKarma/worknew-calendar-01.png)
 
-**Câmpuri obligatorii:**
-- **Data**: Data când s-a desfășurat activitatea
-- **Client**: Selectați clientul din lista dropdown
-- **Dosar**: Alegeți dosarul asociat (se filtrează automat după client)
-- **Activitate**: Tipul de activitate (consultare, redactare, ședință, etc.)
-- **Ore**: Numărul de ore (0-23) folosind NumberBox
-- **Minute**: Numărul de minute (0-59) folosind NumberBox
+ Alt exemplu, pentru a selecta un client/dosar
 
-**Câmpuri opționale:**
-- **Activitate**: Editor rich text (HtmlEditor) pentru descrierea detaliată
-- **Observații**: Editor rich text pentru note suplimentare
-- **Formatare**: Formatarea se elimină automat la paste pentru consistență
-- **Verificare ortografică**: Suport pentru verificarea ortografică specifică limbii
+![worknew-clientmatter-01](./ImaginiJurnalKarma/worknew-clientmatter-01.png)
 
-#### Pasul 3: Salvarea
-- **Salvează**: Salvează activitatea și rămâne în formular pentru următoarea
-- **Salvează și închide**: Salvează și revine la dashboard
-- **Anulează**: Anulează introducerea fără salvare
+Alt exemplu, pentru a selecta un solicitantul unei activități
 
-### Metoda 2: Introducere rapidă
+![worknew-requestor-01](./ImaginiJurnalKarma/worknew-requestor-01.png)
 
-Pentru activități simple și repetitive:
+##### Scrierea directă
 
-1. **Click pe "Introducere rapidă"** din dashboard
-2. **Selectați template-ul** predefinit (dacă există)
-3. **Modificați** doar câmpurile necesare (data, durata)
-4. **Salvați** cu un click
+Se completează pur și simplu textul, direct în formular. Câteva detalii particulare le vom descrie la capitolul destinat fiecărui editor în parte.
 
-### Metoda 3: Funcții de clipboard
+#### Ordinea de completare
 
-Pentru copierea și gestionarea rapidă a activităților:
+Ideal este să selectăm cât mai devreme **CLIENT / DOSAR** - asta pentru că odată cu selectarea dosarului se încarcă și regulile și drepturile de completare.
 
-#### Operații clipboard
-1. **Selectați** o activitate din grid
-2. **Cut (Ctrl+X)**: Taie activitatea pentru mutare
-3. **Copy (Ctrl+C)**: Copiază activitatea pentru duplicare
-4. **Paste (Ctrl+V)**: Lipește activitatea copiată
+#### Obligativitatea completării 
 
-#### Clipboard popup
-- **Vizualizare conținut**: Vezi ce este în clipboard
-- **Gestionare**: Modifică datele înainte de paste
-- **Validare**: Verifică compatibilitatea înainte de lipire
+Dacă un element este opțional atunci este marcat ca atare "('Opțional')" - cu verde
+Dacă un element este obligatoriu atunci acesta este marcat cu o steluță roșie.
 
-#### Ajustare incrementală
-- **+10 minute**: Buton pentru adăugarea rapidă de 10 minute
-- **Validare automată**: Verifică limitele de timp (0-23 ore, 0-59 minute)
-- **Feedback vizual**: Indicatori pentru operații reușite/eșuate
 
-## Gestionarea activităților existente
+![worknew-mandatory](./ImaginiJurnalKarma/worknew-mandatoryoptional-01.png)
 
-### Vizualizarea activităților
 
-#### Lista activităților
-- **Filtrare**: După dată, client, dosar, tip activitate
-- **Sortare**: După dată, durată, client
-- **Căutare**: Text în descriere sau observații
-- **Grupare**: După client, dosar sau tip activitate
+#### Câmpuri invalide
+La salvare, câmpurile invalide se evidențiază vizual, cu roșu.
 
-#### Detalii activitate
-Click pe orice activitate pentru a vedea:
-- Toate detaliile introduse
-- Istoricul modificărilor
-- Activități similare/conexe
-- Opțiuni de editare sau ștergere
+![worknew-invalidhhmm](./ImaginiJurnalKarma/worknew-invalidhhmm.png)
 
-### Editarea activităților
+Sunt și alte elemente care atrag atenția asupra unei posibile erori (mesaje, carduri de validare samd).
 
-#### Activități editabile
-- Activități din ziua curentă: editare completă
-- Activități din ultimele 7 zile: editare cu aprobare
-- Activități mai vechi: doar cu permisiuni speciale
 
-#### Procesul de editare
-1. **Click** pe activitatea dorită
-2. **Selectați** "Editează"
-3. **Modificați** câmpurile necesare
-4. **Salvați** modificările
 
-:::warning Atenție
-Editarea activităților mai vechi de 7 zile poate necesita aprobare din partea managerului.
+
+## Trecerea în revistă a elementelor de introducere
+
+Fiecare element în parte a fost descris ca funcționalitate în capitolul [Elementele vizuale](./1-Elementele-vizuale.md)
+Vom reveni acum doar pentru a puncta rolul respectivului element în procesul de introducere a unei activități.
+
+### Calendar - Caseta de dată
+
+<!-- Calendarul se initalizeaza cu ziua in curs si ramane setat pe ultima zi in care am introdus o activitate. -->
+
+Am văzut mai sus [cum se deschide panoul de selecție pentru data, calendarul](#modificare-data)
+
+Apoi, se poate selecta o altă zi validă din calendar. 
+
+Comenzile sunt destul de intuitive. 
+
+![worknew-calendar-02](./ImaginiJurnalKarma/worknew-calendar-02.png)
+
+- "**Astăzi**" - în calendar - navighează la ziua curentă.
+  
+- "**>> Astăzi**" - în caseta de dată - navighează la ziua curentă.
+    Dacă ziua pentru care se introduce activitatea este diferită de ziua curentă, butonul se activează într-un mod vizual mai evident, pentru a atrage atenția asupra unei posibile introduceri greșite. Asta pentru că uzual și ideal este să se introducă activități pentru ziua curentă și nu în trecut.
+
+- "**Pin**" - în caseta de dată - fixează data selectată la momentul în care a fost bifată, ca dată pentru introducerea activităților.
+   Apoi, dacă se navighează la o altă dată, cea pentru introducere rămâne fixă;
+
+
+:::note
+Regulile după care rulează diferite validări (dacă dosarul este accesibil sau dacă perioada aleasă nu este blocată) sunt specifice fiecărui dosar.
 :::
 
-### Ștergerea activităților
 
-#### Condiții pentru ștergere
-- Doar activități proprii
-- În intervalul de timp permis
-- Fără impact asupra facturilor emise
+### Avocați
 
-#### Procesul de ștergere
-1. **Selectați** activitatea
-2. **Click** pe "Șterge"
-3. **Confirmați** ștergerea
-4. Activitatea este marcată ca ștearsă (nu se elimină definitiv)
+<a id="completarea-unei-activitati-useri"></a>Automat este selectat utilizatorul curent.
+Dacă sunt drepturi suficiente, acesta poate selecta și alți utilizatori.
+Regulile decurg din politica de lucru a fiecărei societăți și de drepturile de acces ale fiecărui utilizator.
 
-## Funcții speciale
+![Users](./ImaginiJurnalKarma/worknew-users-01.png) 
 
-### Template-uri de activități
+:::info
+Nu se poate modifica valoarea editorului decât **după completarea câmpului "Dosar"**, întrucât programul trebuie să analizeze dacă terți utilizatori au acces la dosarul respectiv.
+:::
 
-#### Crearea unui template
-1. **Introduceți** o activitate completă
-2. **Selectați** "Salvează ca template"
-3. **Numiți** template-ul
-4. Template-ul devine disponibil pentru utilizări viitoare
+:::info
+Nu se pot introduce activități pentru terți utilizatori care nu au acces la dosarul respectiv.
+Aceștia apar în lista însă căsuța de bifare este inactivă.
+:::
 
-#### Utilizarea template-urilor
-- **Selectați** template-ul din lista
-- **Modificați** doar data și durata
-- **Salvați** rapid activitatea
 
-### Activități recurente
+<!-- Anunță POST FACTUM dacă ziua selectată este nu primește activități -->
 
-Pentru activități care se repetă regulat:
+### Clienți și Dosare
 
-1. **Definiți** activitatea de bază
-2. **Setați** frecvența (zilnic, săptămânal, lunar)
-3. **Specificați** perioada de valabilitate
-4. Activitățile se vor crea automat conform programului
+<a id="completarea-unei-activitati-client-dosar"></a>
+Trebuie știut că în arborele de clienți/dosare sunt doar dosarele pentru care utilizatorul curent are drept de introducere a activităților.
 
-### Import/Export
 
-#### Import din calendar
-- **Google Calendar**: Sincronizare automată a întâlnirilor
-- **Outlook**: Import evenimente ca activități
-- **CSV**: Import în lot din alte sisteme
+### Timpul de lucru (ore, minute)
 
-#### Export pentru raportare
-- **Excel**: Pentru analize suplimentare
-- **PDF**: Pentru prezentări
-- **CSV**: Pentru integrare cu alte sisteme
+<a id="completarea-unei-activitati-timp"></a>
+Editoarele sunt limitate la 23 ore și 59 minute.
+<!-- Editoarele recompun datele si salveaza corect in format "hh:mm" timpul inregistrat -->
 
-## Validări și reguli de business
-
-### Validări automate
-
-#### Timp maxim pe zi
-- **Limită**: 24 ore pe zi (configurabilă)
-- **Alertă**: La depășirea limitei normale (8-10 ore)
-- **Blocare**: La valori imposibile
-
-#### Suprapuneri de timp
-- **Detectare**: Activități simultane
-- **Alertă**: Notificare despre conflict
-- **Rezolvare**: Sugestii pentru ajustare
-
-#### Dosare inactive
-- **Verificare**: Dosare închise sau suspendate
-- **Alertă**: Avertisment la introducerea pe dosare inactive
-- **Blocare**: Opțional, pentru dosare complet închise
-
-### Reguli de aprobare
-
-#### Activități normale
-- **Sub 8 ore/zi**: Aprobare automată
-- **8-12 ore/zi**: Aprobare cu notificare
-- **Peste 12 ore/zi**: Necesită aprobare explicită
-
-#### Activități speciale
-- **Weekend**: Poate necesita justificare
-- **Sărbători**: Aprobare specială
-- **Ore suplimentare**: Conform politicilor companiei
-
-:::tip Sugestie
-Utilizați funcțiile de clipboard pentru a copia rapid activități similare și butonul "+10 minute" pentru ajustări rapide de timp.
+:::warning
+Această secțiune a manualului nu este finalizată încă. Revenim în curând cu completări. Dacă sunt întrebări urgente ne puteți contacta la adresa de email: support@softwiz.ro
 :::

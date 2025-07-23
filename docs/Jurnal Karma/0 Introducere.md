@@ -2,83 +2,117 @@
 sidebar_position: 0
 ---
 
-# Introducere în Jurnal Gold Karma
+# Gestionarea activităților în Jurnal Gold Karma (v.0.4)
 
 ## Ce este Jurnal Gold Karma?
 
-Jurnal Gold Karma este **aplicația web modernă** pentru introducerea și gestionarea activităților (timesheet) din ecosistemul Jurnal Gold. Aceasta oferă o interfață web intuitivă și responsivă pentru introducerea timpilor de lucru, complementând aplicațiile desktop Jurnal Extended și Jurnal Quick.
+Jurnal Gold Karma este o reinterpretare și o extindere a funcționalităților Jurnal Gold în accepțiunea lor clasică, folosind tehnologii și interfețe grafice moderne.
 
-## Caracteristici principale
+Aceste reinterpretări sau extinderi pot rula în interfața desktop, ca parte a acesteia, dar pot la fel de bine să fie portate în sisteme de aplicații web.
 
-### 🌐 **Interfață Web Modernă**
-- Design responsiv, optimizat pentru desktop, tabletă și mobil
-- Interfață intuitivă construită cu React
-- Experiență de utilizare fluidă și rapidă
+## Privire de ansamblu asupra gestionării activităților în Jurnal Gold Karma
 
-### ⏱️ **Gestionare Timesheet**
-- Introducere rapidă a activităților cu ore și minute
-- Editor rich text pentru descrierea detaliată a activităților
-- Grid avansat cu sortare, filtrare și export
-- Validare automată și verificări de consistență
-- Funcții de clipboard (cut, copy, paste) pentru activități
+În acest modul, am organizat funcționalitățile într-un mod mai clar și ergonomic, păstrând elementele cu care utilizatorii sunt deja obișnuiți din interfața clasică.
 
-### 🔄 **Integrare Completă**
-- Partajarea aceleiași baze de date cu aplicațiile desktop
-- Compatibilitate completă cu Jurnal Extended și Jurnal Quick
-- Acces la aceleași dosare, contracte și clienți
-- Respectarea acelorași reguli de business și permisiuni
+Interfața a fost concepută pentru a oferi în mediul online o experiență cât mai apropiată de cea de pe desktop.
 
-### 📱 **Accesibilitate**
-- Acces de oriunde prin browser web
-- Nu necesită instalare de software
-- Funcționează pe orice dispozitiv cu browser modern
-- Suport offline pentru continuarea lucrului fără conexiune
+![Interfața completă pentru introducerea activităților](./ImaginiJurnalKarma/tsfull.png)
 
-## Avantaje față de aplicațiile desktop
+### Îmbunătățiri notabile
+- Am adus **calendarul** din ”Breakdown” în pagina principală
 
-| Caracteristică | Jurnal Karma (Web) | Jurnal Desktop |
-|---|---|---|
-| **Accesibilitate** | Oriunde, orice dispozitiv | Doar pe PC-ul cu aplicația instalată |
-| **Instalare** | Nu necesită | Necesită instalare și configurare |
-| **Actualizări** | Automate, transparente | Manuale, necesită restart |
-| **Colaborare** | Partajare ușoară de linkuri | Limitată la rețeaua locală |
-| **Mobilitate** | Optimizat pentru mobil/tabletă | Doar desktop |
+  ![Calendar-detaliu](./ImaginiJurnalKarma/calendar-small.png)
 
-## Integrare cu aplicația desktop
+- Introducere separată pentru ore și minute, cu buton „+10 minute”.
 
-Jurnal Gold Karma se integrează perfect cu aplicațiile desktop existente:
+  ![Oreminute-detaliu](./ImaginiJurnalKarma/oreminute-small.png)
 
-- **Date partajate**: Aceeași bază de date SQL Server
-- **Compatibilitate**: Modificările din desktop sunt vizibile în web
-- **Permisiuni**: Respectă aceleași drepturi de acces
-- **Raportare**: Activitățile introduse web apar în rapoartele desktop
+- Caseta pentru introducerea activităților este **mai mare** și poate afișa **fonturi** de dimensiuni diferite.  
+- Se pot introduce texte cu **diacritice**.  
+- Spellcheck mai discret.
 
-## Pentru cine este destinat?
+  ![Activitate-detaliu](./ImaginiJurnalKarma/activitate-small.png)
 
-### 👨‍💼 **Avocați în deplasare**
-- Introducere rapidă a timpilor din tribunal sau de la client
-- Acces la dosare și contracte de pe orice dispozitiv
-- Interfață optimizată pentru introducerea rapidă a datelor
+- Mod de vizualizare a activităților **pe zi** | **tot** | **pe client** în aceeași pagină.
 
-### 🏢 **Echipe distribuite**
-- Colaboratori care lucrează remote
-- Birouri multiple cu acces centralizat
-- Consultanți externi cu acces limitat
+  ![toolbar-detaliu](./ImaginiJurnalKarma/tstoolbar-small.png)
 
-### 📱 **Utilizatori moderni**
-- Preferință pentru interfețe web moderne
-- Lucru pe multiple dispozitive
-- Necesitatea accesului rapid și flexibil
+- Vizualizarea fiecărei **validări** în parte, premergător salvării activității.
 
-## Următorii pași
+  ![Validare-detaliu](./ImaginiJurnalKarma/validare-small.png)
 
-Pentru a începe să utilizați Jurnal Gold Karma, consultați:
+### Funcționalități noi
+- **”Recente”** în arborele de Clienți/Contracte am adăugat un nou nod rădăcină.
 
-1. **[Configurarea și accesul](./1%20Configurare%20si%20acces.md)** - Cum să accesați aplicația web
-2. **[Introducerea activităților](./2%20Introducerea%20activitatilor.md)** - Ghid pas cu pas pentru timesheet
-3. **[Funcții avansate](./3%20Functii%20avansate.md)** - Grid, validare, export și căutare
-4. **[Integrarea cu desktop](./4%20Integrarea%20cu%20desktop.md)** - Cum funcționează împreună cu aplicațiile desktop
+  ![Recente](./ImaginiJurnalKarma/recente-small.png)
 
-:::tip Sugestie
-Jurnal Gold Karma oferă funcții avansate de clipboard și validare care fac introducerea datelor mai rapidă și mai precisă decât interfețele tradiționale.
-:::
+- **”Favorite”** marcare și filtrare mai ușoară a unor clienți sau dosare.
+
+  ![Filtru-favorite](./ImaginiJurnalKarma/filtru-favorite-small.png)
+
+- **Căutare full-text** în activități.  
+- Vizualizarea întregului **istoric** al unui dosar, direct din gridul de activități.  
+- **Export** în PDF a oricărei selecții din gridul de activități, în tab diferit.
+
+  ![Grid-features](./ImaginiJurnalKarma/gridfeatures-small.png)
+
+
+<!-- ---
+sidebar_position: 0
+---
+
+# Gestionarea activităților în Jurnal Gold Karma
+
+## Ce este Jurnal Gold Karma?
+
+Jurnal Gold Karma este o reinterpretare și o extindere a funcționalităților Jurnal Gold în accepțiunea lor clasică, folosind tehnologii și interfețe grafice moderne.
+
+Aceste reinterpretări sau extinderi pot rula în interfața desktop, ca parte a acesteia, dar pot la fel de bine să fie portate în sisteme de aplicații web.
+
+## Privire de ansamblu asupra gestionării activităților în Jurnal Gold Karma
+
+În acest modul, am organizat funcționalitățile într-un mod mai clar și ergonomic, păstrând elementele cu care utilizatorii sunt deja obișnuiți din interfața clasică.
+
+Interfața a fost concepută pentru a oferi în mediul online o experiență cât mai apropiată de cea de pe desktop.
+
+![Interfața completă pentru introducerea activităților](./ImaginiJurnalKarma/tsfull.png)
+
+### Imbunătățiri notabile
+- Am adus **calendarul** din ”Breakdown” in pagina principală
+
+![Calendar-detaliu](./ImaginiJurnalKarma/calendar-small.png)
+
+- Introducere separata **ore minute** cu buton +10 minute.
+
+![Oreminute-detaliu](./ImaginiJurnalKarma/oreminute-small.png)
+
+- Caseta pentru introducerea activitatilor este **mai mare** si poate afisa **fonturi** de dimensiuni diferite. 
+- Se pot introduce texte cu **diacritice**.
+- Spellcheck mai discret.
+
+![Activitate-detaliu](./ImaginiJurnalKarma/activitate-small.png)
+
+- Mod de vizualizare a activitatilor  **pe zi** | **tot** | **pe client**  in aceeasi pagina.
+
+![toolbar-detaliu](./ImaginiJurnalKarma/tstoolbar-small.png)
+
+- Vizualizarea fiecarei **validari** in parte, premergator salvarii de activitate.
+
+![Validare-detaliu](./ImaginiJurnalKarma/validare-small.png)
+
+### Funcționalități noi
+- **”Recente”** in arborele de Clienti/Contracte am adaugat un nou nod rădăcină.
+
+![Recente](./ImaginiJurnalKarma/recente-small.png)
+
+- **”Favorite”** marcare si filtrare mai usoara a unor clienti sau dosare.
+
+![Filtru-favorite](./ImaginiJurnalKarma/filtru-favorite-small.png)
+
+- **Căutare full-text** in activitati.
+- Vizualizarea intregului **istoric** al unui dosar, direct din gridul din activiati.
+- **Export** in pdf a oricarei selectii din gridul de activitati, în tab diferit.
+
+![Grid-features](./ImaginiJurnalKarma/gridfeatures-small.png)
+
+ -->
